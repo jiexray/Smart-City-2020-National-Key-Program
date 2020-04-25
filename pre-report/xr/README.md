@@ -20,3 +20,12 @@ For multi-objective decision problem, provide a real-time update to an outdated 
 * English: Introduce fault-tolerant optimization framework to alleviate the influence of single-point failure problem in distributed multi-agent systems.
 
 中文： 设计具有容错性的决策框架，降低单点故障在分布式多智体系统中的影响。
+
+
+版本2：
+1. 指南说明：支持敏感数据不共享条件下的可信任协同训练
+主要工作：
+（1）针对多智体协同决策的数据接入和共享过程，设计数据的敏感度模型，建立访问敏感数据的保护机制。
+（2）在多智体通信中，人为添加数据模糊，针对该不可靠数据交换模型，设计可控置信度的协同训练协议。
+
+2. 指南说明：构建虚拟共有模型，完成宏观任务目标
